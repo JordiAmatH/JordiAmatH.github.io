@@ -3,7 +3,7 @@ html, body {
     line-height: 1;
     margin: 0;
     width: 100%;
-    background-color: #2E4053;
+    background-color: rgb(46, 64, 83);
     
 }
 
@@ -44,7 +44,7 @@ h1 {
     margin-bottom: 10px;
     margin-top: 15px;
     text-align: center;
-    color: #D4B483;
+    color: rgb(212, 180, 131);
     
 }
 
@@ -53,7 +53,7 @@ h2 {
     font-weight: 200;
     margin-bottom: 10px;
     margin-top: 15px;
-    color: #D4B483;
+    color: rgb(212, 180, 131);
 }
 
 h3{
@@ -61,12 +61,12 @@ h3{
     font-weight: 200;
     margin-bottom: 10px;
     margin-top: 15px;
-    color: #D4B483;
+    color: rgb(212, 180, 131);
 }
 
 p,li,ul{
     font-size: 1rem;
-    color: #FDFEFE;
+    color: rgb(253, 254, 254);
 s
 }
 
@@ -94,13 +94,13 @@ img {
     letter-spacing: .5px;
     padding: 16px;
     text-decoration: none;
-    color: #FDFEFE;
+    color: rgb(253, 254, 254);
     width: 100%;
     transition: color 100ms linear;
 }
 
 .white:hover{
-    color: #D4B483;
+    color: rgb(212, 180, 131);
 
 }
 
@@ -110,7 +110,7 @@ img {
     letter-spacing: .5px;
     padding: 16px;
     text-decoration: none;
-    color: #D4B483;
+    color: rgb(212, 180, 131);
     width: 100%;
     transition: color 100ms linear;
 }
@@ -121,7 +121,7 @@ img {
     letter-spacing: .5px;
     padding: 16px;
     text-decoration: none;
-    color : #2E4053;
+    color : rgb(46, 64, 83);
     width: 100%;
 }
 
