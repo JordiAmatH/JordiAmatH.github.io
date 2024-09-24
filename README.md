@@ -1,1 +1,1 @@
-# OKO-WEB
+# Curriculum Vitae website template
