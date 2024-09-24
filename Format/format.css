@@ -66,6 +66,7 @@ p, ul{
     text-decoration: none;
     width: 100%;
     transition: color 100ms linear;
+    color: #f8f8f8;
 }
 
 a{
