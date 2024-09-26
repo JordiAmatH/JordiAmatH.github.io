@@ -87,8 +87,8 @@ img {
     font-weight: 500;
 }
 .dropdown {
-  position: sticky;
-  display: inline-block;
+  position: relative;
+  display: inline-flex;
   cursor: pointer;
 }
 
