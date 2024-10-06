@@ -1,18 +1,25 @@
-* {
+*{
     font-family: Garamond,Serif;
-    background-color:#4e4e4e;
-    margin: 0; 
+    background-color:#494949;
+    margin: 0;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color:#494949;
+
 }
 
 header, footer{
     display: flex;
     position: sticky;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 40px;
+    justify-content: center;
     border: solid;
     border-color:#f8f8f8;
-     
+    margin: 0;
+    width:100%;
+    height:15%;
+    padding: 2.5% 
 }
 header{
     top: 0;
@@ -23,10 +30,9 @@ footer{
 }
 
 main {
+    padding: 5%;
     display: flex; 
-    flex-direction: row; 
-    min-height: 100vh;
-    padding:5px 80px;
+    flex-direction: row;
 }
 
 h1 {
@@ -42,6 +48,11 @@ h2 {
     color:#4974a5!important;
 }
 
+h3{
+    font-size: 1rem;
+    color:#4974a5!important;
+}
+
 p, ul, li {
     font-size: 1rem;
     text-align: justify;
@@ -53,14 +64,13 @@ a{
     text-decoration: none !important;
     font-size: 1.25rem;
     color:#f8f8f8!important;
-    text-align: justify;
     background-color: transparent;
     cursor: pointer;
     
 }
 
 a:hover{
-    color:#1d2f44!important;
+    color:#4974a5!important;
 }
 
 a:focus {
@@ -78,25 +88,39 @@ img {
 }
 
 .menu{
-    position: relative;
-    border: none;
-    cursor: pointer;
     display: flex;
-    position: sticky;
-    justify-content: space-between;
-    flex-direction: row;
-    width:250px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    width:33%;
+    
 }
 .dropdown{
     display: none;
     position: absolute!important;
-    top: 30px;
-    justify-self: left;
-    background-color:#4e4e4e;
+    place-items: center!important;
+    background-color:#494949;
     border: solid;
     border-color:#f8f8f8;
-    width:250px;
+    margin-top:1.85%;
+    width:18%;
 }
 .menu:hover .dropdown,.menu:hover .dropup{
   display: block;
 }
+
+@media (min-width: 1201px ) {
+    /* TV or higher */
+  }
+  @media (max-width: 1200px) {
+    /* Big screens */
+  }
+  @media (max-width: 1024px) {
+    /* Screens */
+  }
+  @media (max-width: 768px) {
+    /* Tablets */
+  }
+  @media (max-width: 480px) {
+    /* Phone*/
+  }
