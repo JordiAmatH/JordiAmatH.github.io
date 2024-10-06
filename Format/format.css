@@ -13,7 +13,7 @@ header, footer{
     border: solid;
     border-color:#f8f8f8;
     background-color:#4e4e4e;
-    height: 20%;
+    height: 30%;
      
 }
 header{
@@ -28,21 +28,20 @@ main {
     display: flex; 
     flex-direction: row; 
     min-height: 100vh;
-    padding:5px 80px;
-    height: 60%;   
+    padding:5px 80px; 
 }
 
 h1 {
     font-size: 2.5rem;
     font-weight: 100;
     text-align: center;
-    color:#7a49a5;
+    color:#4974a5;
 }
 
 h2 {
     font-size: 2.0rem;
     text-align: center;
-    color:#7a49a5;
+    color:#4974a5;
 }
 
 p, ul, li {
@@ -62,7 +61,7 @@ a{
 }
 
 a:hover{
-    color:#7a49a5;
+    color:#243a53;
 }
 
 a:focus {
