@@ -33,13 +33,13 @@ h1 {
     font-size: 2rem;
     font-weight: 100;
     text-align: center;
-    color:#7a49a5!important;
+    color:#4974a5!important;
 }
 
 h2 {
     font-size: 1.75rem;
     text-align: center;
-    color:#7a49a5!important;
+    color:#4974a5!important;
 }
 
 p, ul, li {
@@ -60,7 +60,7 @@ a{
 }
 
 a:hover{
-    color:#7a49a5!important;
+    color:#1d2f44!important;
 }
 
 a:focus {
