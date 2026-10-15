@@ -1,112 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" data-lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Curriculum Vitae</title>
-  <link rel="stylesheet" href ="Format\format.css">
+  <title>Jordi Amat Hernández · CV</title>
+  <meta name="description" content="Desarrollador de software full-stack y administrador de sistemas. Spring Java, Angular, Python, C#, SQL.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Format/format.css">
 </head>
 
 <body>
-  <header>
-    
-    <a class="menu" href=index.html> 
-      <h3>Jordi Amat Hernández</h3>
-      <ul class="dropdown">
-        <li class="highlight">Contact information</li>
-        <li>
-          jordi.amat@outlook.com<br>   
-          +34 644 675 438<br>
-        </li>        
-      </ul>
-    </a>
+  <div class="layout">
 
-    <a class="menu">Experience
-      <ul class="dropdown">
-        <li> <strong>Abogalia</strong><br>
-          <small>(2019-2023)</small>
-        </li>
-        <li><strong>Clinica Rahhal</strong><br>
-            <small> (2024-Current)</small>
-          </li>
-      </ul>
-    </a>
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+      <img class="photo" src="img/perfil.jpg" alt="Jordi Amat Hernández" width="600" height="800">
+      <h1 class="name">Jordi Amat<br>Hernández</h1>
+      <p class="role">
+        <span class="es">Desarrollador de software, administrador de sistemas y experto en IA</span>
+        <span class="en">Software developer, systems administrator &amp; AI expert</span>
+      </p>
 
-    <a class="menu"> Degrees 
-      <ul class="dropdown">
-          <li style="text-align: left;">Multiplataform App Development<br>
-             <small>(2023-2024)</small><br>
+      <section class="side-block">
+        <h2><span class="es">Contacto</span><span class="en">Contact</span></h2>
+        <ul class="contact">
+          <li><a href="mailto:jordi.amat@outlook.com">jordi.amat@outlook.com</a></li>
+          <li><a href="mailto:informatica@okonomics.net">informatica@okonomics.net</a></li>
+          <li><a href="tel:+34644957438">+34 644 957 438</a></li>
+        </ul>
+      </section>
+
+      <section class="side-block">
+        <h2><span class="es">Estudios</span><span class="en">Education</span></h2>
+        <ul class="edu">
+          <li>
+            <strong><span class="es">FP Desarrollo de Aplicaciones Multimedia</span><span class="en">Vocational Degree, Multimedia App Development</span></strong>
+            <span>CEU San Pablo ISEP</span>
+            <small><span class="es">Parcialmente terminada · 2024</span><span class="en">Partially completed · 2024</span></small>
           </li>
-          <li>IGCSE<br>
-            <small>(2017-2019)</small></li>
+          <li>
+            <strong><span class="es">Bachillerato</span><span class="en">High school (IGCSE)</span></strong>
+            <span>Caxton College</span>
+            <small>2017 – 2019</small>
+          </li>
+        </ul>
+      </section>
+
+      <section class="side-block">
+        <h2><span class="es">Idiomas</span><span class="en">Languages</span></h2>
+        <ul class="langs">
+          <li><span class="es">Inglés</span><span class="en">English</span> <small><span class="es">Bilingüe</span><span class="en">Bilingual</span></small></li>
+          <li><span class="es">Español</span><span class="en">Spanish</span> <small><span class="es">Nativo</span><span class="en">Native</span></small></li>
+        </ul>
+      </section>
+
+      <div class="actions">
+        <a class="btn" href="docs/CV_Jordi_Amat.pdf" download>
+          <span class="es">Descargar CV (PDF)</span><span class="en">Download CV (PDF)</span>
+        </a>
+        <button class="btn btn-ghost" id="lang-toggle" type="button" aria-label="Change language">
+          <span class="es">English</span><span class="en">Español</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Contenido -->
+    <main class="content">
+
+      <section id="perfil">
+        <h2 class="section-title"><span class="es">Perfil</span><span class="en">Profile</span></h2>
+        <div class="es">
+          <p>Profesional informático con experiencia en desarrollo de software full-stack (Spring Java, Angular, Python, C#) y en administración de sistemas: bases de datos SQL, redes, servidores, correo corporativo y soporte técnico a usuarios. Experto en inteligencia artificial aplicada al desarrollo y a la automatización de procesos.</p>
+          <p>Destaco por solucionar problemas con determinación y adaptabilidad, y por entender las necesidades y limitaciones de cada equipo para adaptar las soluciones y mejorar su eficiencia.</p>
+          <p>Busco nuevas oportunidades que me permitan seguir creciendo y contribuir al desarrollo y mantenimiento de herramientas personalizadas a las necesidades de cada empresa.</p>
+        </div>
+        <div class="en">
+          <p>IT professional with experience in full-stack software development (Spring Java, Angular, Python, C#) and systems administration: SQL databases, networks, servers, corporate email and end-user technical support. Expert in artificial intelligence applied to software development and process automation.</p>
+          <p>I stand out for solving problems with determination and adaptability, and for understanding each team's needs and constraints to tailor solutions and improve their efficiency.</p>
+          <p>I'm looking for new opportunities to keep growing and to help build and maintain tools tailored to each company's needs.</p>
+        </div>
+      </section>
+
+      <section id="competencias">
+        <h2 class="section-title"><span class="es">Competencias técnicas</span><span class="en">Technical skills</span></h2>
+        <div class="skill-group">
+          <h3><span class="es">Desarrollo</span><span class="en">Development</span></h3>
+          <ul class="chips">
+            <li>Java (Spring)</li><li>Angular</li><li>JavaScript</li><li>HTML</li><li>CSS</li><li>Python</li><li>C#</li><li>R</li>
           </ul>
-      </a>
-    
-    </header>
- 
-  <main>
-    
-    <div>
-      <h1>Curriculum Vitae</h1>
-      <h3><small>Profile</small></h3>
-      
-      <img src="img/Peril.jpg" width = "300" height = "400" alt="Jordi Amat Hernandez">
-      <p>Professional with 2-year experience in IT maintenance. Realized tasks relating to maintain 
-        functioning systems and worked to development of new processes to streamline workflow. I have 
-        done administrative tasks such as receiving clients, citing and organizing work timetable, and 
-        sending communications to official government organizations, both online and in person. General 
-        capacity to adapt to any task given, efficiently and maintains an organized workspace.</p>
-    </div>
-    
+        </div>
+        <div class="skill-group">
+          <h3><span class="es">Bases de datos</span><span class="en">Databases</span></h3>
+          <ul class="chips">
+            <li>SQL</li><li>MariaDB</li><li>MySQL</li><li>PostgreSQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3><span class="es">Sistemas e infraestructura</span><span class="en">Systems &amp; infrastructure</span></h3>
+          <ul class="chips">
+            <li><span class="es">Servidores</span><span class="en">Servers</span></li>
+            <li><span class="es">Redes</span><span class="en">Networking</span></li>
+            <li><span class="es">Correo corporativo y dominios</span><span class="en">Corporate email &amp; domains</span></li>
+            <li><span class="es">Soporte hardware y software</span><span class="en">Hardware &amp; software support</span></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3><span class="es">Inteligencia artificial</span><span class="en">Artificial intelligence</span></h3>
+          <ul class="chips">
+            <li><span class="es">IA generativa</span><span class="en">Generative AI</span></li>
+            <li>LLMs</li>
+            <li>Prompt engineering</li>
+            <li><span class="es">Automatización con IA</span><span class="en">AI automation</span></li>
+            <li><span class="es">Desarrollo asistido por IA</span><span class="en">AI-assisted development</span></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3><span class="es">Herramientas</span><span class="en">Tools</span></h3>
+          <ul class="chips">
+            <li>Word</li><li>Excel</li><li>Outlook</li><li>Adobe Acrobat</li>
+          </ul>
+        </div>
+      </section>
 
-    <div>
-      <br><br>
+      <section id="experiencia">
+        <h2 class="section-title"><span class="es">Experiencia laboral</span><span class="en">Work experience</span></h2>
+        <ol class="timeline">
+          <li>
+            <div class="when"><span class="es">2024 – Actualidad</span><span class="en">2024 – Present</span></div>
+            <h3><span class="es">Desarrollador de software y administrador de sistemas</span><span class="en">Software developer &amp; systems administrator</span></h3>
+            <ul class="es">
+              <li>Desarrollo y mantenimiento de aplicaciones con Spring Java, Angular, HTML/JS, Python y C#.</li>
+              <li>Diseño, consulta y mantenimiento de bases de datos SQL (MariaDB, MySQL y PostgreSQL).</li>
+              <li>Mantenimiento de redes y servidores, y soporte técnico a usuarios.</li>
+            </ul>
+            <ul class="en">
+              <li>Development and maintenance of applications with Spring Java, Angular, HTML/JS, Python and C#.</li>
+              <li>Design, querying and maintenance of SQL databases (MariaDB, MySQL and PostgreSQL).</li>
+              <li>Network and server maintenance, and end-user technical support.</li>
+            </ul>
+          </li>
+          <li>
+            <div class="when">2019 – 2023</div>
+            <h3><span class="es">Administrador informático · Despacho de abogados</span><span class="en">IT administrator · Law firm</span></h3>
+            <ul class="es">
+              <li>Mantenimiento informático y uso de herramientas legales.</li>
+              <li>Modernización de equipos y actualización a nuevas formas de trabajo con herramientas modernas.</li>
+            </ul>
+            <ul class="en">
+              <li>IT maintenance and support for legal software.</li>
+              <li>Hardware modernisation and transition to new ways of working with modern tools.</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
 
-      
+      <section id="proyectos">
+        <h2 class="section-title"><span class="es">Proyectos</span><span class="en">Projects</span></h2>
+        <div class="cards">
+          <a class="card" href="https://www.okonomics.net" target="_blank" rel="noopener">
+            <h3>OKOnomics</h3>
+            <p class="es">Plataforma de análisis sobre economía, finanzas y geopolítica. Responsable de la infraestructura informática: web, dominio y sistema de correo corporativo.</p>
+            <p class="en">Insight platform on economics, finance and geopolitics. In charge of its IT infrastructure: website, domain and corporate email system.</p>
+            <span class="link">www.okonomics.net ↗</span>
+          </a>
+        </div>
+      </section>
 
-      <h2>Job Experience</h2>
-      <ul>
-      
-        <li>Administrative and IT maintenance for a lawfirm (2021-2023)</li>
-        <p>In this job my main function was to update old work habits by implementing a cloud-based software, 
-          modernizing document management that allowed workers to increase their productivity, allowed more 
-          flexibility with the hours they had to be in the office and reduced costs. Optimizing hardware helped 
-          increase the work experience, this plus implementing more appropriate work software improved the work 
-          experience for other employees. Basic graphic designs done thanks to a familiarization with photoshop 
-          like software.</p>
+      <footer class="foot">© 2026 Jordi Amat Hernández</footer>
+    </main>
+  </div>
 
-      
-        <li>IT maintenance for a Ophthalmological Clinic </li>
-        <p>General hardware management for any installed machines, by providing IT support to the users and fixing 
-          any configuration issues found. Effort to make sure workers would understand how to more effectively used 
-          the equipment provided and aided when any technical or environmental issues arouse. General assistance with
-           any maintenance related tasks, with special mention to the brief help given to the modernization of the telecom 
-           system.</p>knowledge
-      </ul>
-      <h2>Advanced Education</h2>
-        <ul>
-          <li>Languages: English (bilingual), Spanish (native).</li>
-    
-          <li>Programming: Python for 4 years, Java for 2 years, R for 1 year.</li>
-    
-          <li>Extensive knowledge of web development and maintenance (HTML, CSS, Java Script).</li>
-    
-          <li>Capacity to manage and maintain ubuntu and windows servers.</li>
-    
-          <li>Extensive experience with Microsoft Office (Word, Excel, Outlook, Power Point).</li>
-    
-          <li> Basic usage of Adobe Acrobat, Photoshop and any video editing software.</li>     
-    </div>
-  </main>
-<footer>
-  <p>|</p>
-  <a class="menu"href=Articles.html>Projects</a>
-  <p>|</p>
-  <a class="menu" href=https://okonomics.github.io>OKOnomics</a>
-  <p>|</p>
-  <a class="menu" href=https://www.youtube.com/@TheConnorsQuest>Connor's Quest</a>
-  <p>|</p>
-</footer>
+  <script>
+    (function () {
+      var root = document.documentElement;
+      function setLang(lang) {
+        root.setAttribute('data-lang', lang);
+        root.setAttribute('lang', lang);
+        try { localStorage.setItem('cv-lang', lang); } catch (e) {}
+      }
+      var saved = null;
+      try { saved = localStorage.getItem('cv-lang'); } catch (e) {}
+      if (saved === 'es' || saved === 'en') setLang(saved);
+      document.getElementById('lang-toggle').addEventListener('click', function () {
+        setLang(root.getAttribute('data-lang') === 'es' ? 'en' : 'es');
+      });
+
+      // Animación de entrada al hacer scroll
+      var items = document.querySelectorAll('.sidebar > *, .content > section');
+      if (!('IntersectionObserver' in window) ||
+          window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      root.classList.add('anim');
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12 });
+      items.forEach(function (el, i) {
+        el.style.transitionDelay = Math.min(i, 6) * 60 + 'ms';
+        io.observe(el);
+      });
+    })();
+  </script>
 </body>
 </html>
